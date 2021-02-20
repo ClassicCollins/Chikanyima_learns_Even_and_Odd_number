@@ -1,0 +1,9 @@
+num = float (input("Welcome Chukwukanyima! Enter a number between 1 and 100: "))
+result = (num) % 2
+if (num) >=1 and (num) <=100:
+      if result == 0:
+          print("That's an Even number! Chikanyima, do you have another no to enter?: ")
+      else:
+          print("That's an Odd number! Chikanyima, do you have another no to enter?: ")
+else:
+    print ("Invalid input! Chukwukanyima, make sure you entered a number between 1 and 100")
